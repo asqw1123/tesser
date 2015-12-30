@@ -6,7 +6,5 @@ of historical German newspapers ([Allgemeine Preußische Staatszeitung](https://
 Normally we run Tesseract on Debian GNU Linux, but there was also the need for
 a Windows version. That's why we have built a Tesseract installer for Windows.
 
-**Warning: don't tick `Add to Path` under Registry settings; it will reset your system wide windows PATH environment variable**
-
 The latest installer can be downloaded here:
 [tesseract-ocr-setup-3.05.00dev.exe](http://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-setup-3.05.00dev.exe).
