@@ -7,4 +7,7 @@ Normally we run Tesseract on Debian GNU Linux, but there was also the need for
 a Windows version. That's why we have built a Tesseract installer for Windows.
 
 The latest installer can be downloaded here:
-[tesseract-ocr-setup-3.05.00dev.exe](http://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-setup-3.05.00dev.exe).
+[tesseract-ocr-setup-3.05.00dev.exe](http://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-setup-3.05.00dev.exe). There may be also [older versions](http://digi.bib.uni-mannheim.de/tesseract/) available.
+
+History:
+* 2016-05-13 New new installer now includes the executables needed for training, too. It is based on the latest Tesseract sources.
