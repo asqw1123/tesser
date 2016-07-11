@@ -10,5 +10,5 @@ The latest installer can be downloaded here:
 [tesseract-ocr-setup-3.05.00dev.exe](http://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-setup-3.05.00dev.exe). There may be also [older versions](http://digi.bib.uni-mannheim.de/tesseract/) available.
 
 History:
-* 2016-07-08 TIFF warnings are now shown on the console (no longer disturbing message windows).
+* 2016-07-11 TIFF warnings are now shown on the console (no longer disturbing message windows).
 * 2016-05-13 The new installer now includes the executables needed for training, too. It is based on the latest Tesseract sources.
