@@ -7,9 +7,10 @@ Normally we run Tesseract on Debian GNU Linux, but there was also the need for
 a Windows version. That's why we have built a Tesseract installer for Windows.
 
 The latest installer can be downloaded here:
-[tesseract-ocr-setup-3.05.00dev.exe](http://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-setup-3.05.00dev.exe). There are also [older versions](http://digi.bib.uni-mannheim.de/tesseract/) available.
+[tesseract-ocr-setup-3.05.00dev.exe](http://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-setup-3.05.00dev.exe) and [tesseract-ocr-setup-4.00.00dev.exe](http://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-setup-4.00.00dev.exe) (experimental). There are also [older versions](http://digi.bib.uni-mannheim.de/tesseract/) available.
 
 History:
+* 2016-11-29 First version with LSTM (still experimental).
 * 2016-11-11 Update with latest bug fixes.
 * 2016-08-31 Update with [latest bug fixes for text2image](https://github.com/tesseract-ocr/tesseract/issues/396).
 * 2016-08-28 Update with latest bug fixes.
