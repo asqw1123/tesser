@@ -9,6 +9,8 @@ a Windows version. That's why we have built a Tesseract installer for Windows.
 The latest installer can be downloaded here:
 [tesseract-ocr-setup-3.05.00dev.exe](http://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-setup-3.05.00dev.exe) and [tesseract-ocr-setup-4.00.00dev.exe](http://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-setup-4.00.00dev.exe) (experimental). There are also [older versions](http://digi.bib.uni-mannheim.de/tesseract/) available.
 
+Bug Warning: Don't activate the option to set PATH variable during installation!
+
 History:
 * 2016-11-29 First version with LSTM (still experimental).
 * 2016-11-11 Update with latest bug fixes.
