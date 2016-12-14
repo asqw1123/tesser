@@ -9,7 +9,7 @@ a Windows version. That's why we have built a Tesseract installer for Windows.
 The latest installer can be downloaded here:
 [tesseract-ocr-setup-3.05.00dev.exe](http://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-setup-3.05.00dev.exe) and [tesseract-ocr-setup-4.00.00dev.exe](http://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-setup-4.00.00dev.exe) (experimental). There are also [older versions](http://digi.bib.uni-mannheim.de/tesseract/) available.
 
-Bug Warning: Don't activate the option to set PATH variable during installation!
+Hint: Old versions of the installer had an option to add Tesseract to the PATH environment variable. That option was disabled by default. If it was enabled and PATH was very long, it could happen that the new PATH was empty. We suggest not to use that option and disabled it in our latest version.
 
 History:
 * 2016-11-29 First version with LSTM (still experimental).
