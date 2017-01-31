@@ -12,6 +12,7 @@ The latest installer can be downloaded here:
 Hint: Old versions of the installer had an option to add Tesseract to the PATH environment variable. That option was disabled by default. If it was enabled and PATH was very long, it could happen that the new PATH was empty. We suggest not to use that option and disabled it in our latest version.
 
 History:
+* 2017-01-30 Update Tesseract 4, added new training tools.
 * 2016-11-29 First version with LSTM (still experimental).
 * 2016-11-11 Update with latest bug fixes.
 * 2016-08-31 Update with [latest bug fixes for text2image](https://github.com/tesseract-ocr/tesseract/issues/396).
