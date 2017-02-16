@@ -12,6 +12,7 @@ The latest installer can be downloaded here:
 Hint: Old versions of the installer had an option to add Tesseract to the PATH environment variable. That option was disabled by default. If it was enabled and PATH was very long, it could happen that the new PATH was empty. We suggest not to use that option and disabled it in our latest version.
 
 History:
+* 2017-02-16 Update Tesseract 4. Fixed not working AVX support.
 * 2017-02-02 Update Tesseract 4. Removed not working AVX support.
 * 2017-01-30 Update Tesseract 4, added new training tools. AVX support not working.
 * 2016-11-29 First version with LSTM (still experimental).
