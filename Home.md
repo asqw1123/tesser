@@ -1,4 +1,4 @@
-#Tesseract at UB Mannheim
+# Tesseract at UB Mannheim
 
 The Mannheim University Library (UB Mannheim) uses Tesseract to perform OCR
 of historical German newspapers ([Allgemeine Preußische Staatszeitung](https://de.wikipedia.org/wiki/Allgemeine_Preu%C3%9Fische_Staatszeitung), [Deutscher Reichsanzeiger](https://de.wikipedia.org/wiki/Deutscher_Reichsanzeiger)).
