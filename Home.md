@@ -14,6 +14,7 @@ In addition, we also provide [documentation](http://digi.bib.uni-mannheim.de/tes
 Hint: Old versions of the installer had an option to add Tesseract to the PATH environment variable. That option was disabled by default. If it was enabled and PATH was very long, it could happen that the new PATH was empty. We suggest not to use that option and disabled it in our latest version.
 
 History:
+* 2017-06-02 Update Tesseract 3.05.01.
 * 2017-05-10 Update Tesseract 3.05.00 (+ later fixes). Removed buggy setting of PATH.
 * 2017-05-10 Update Tesseract 4. Now includes AVX support.
 * 2017-02-16 Update Tesseract 4. Fixed not working AVX support.
