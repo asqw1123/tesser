@@ -25,3 +25,27 @@ tbd. = more information still missing
 
 * IM FELL – Antiqua, 100 %, ligatures
 * Old Standard
+
+## More links to font sources
+
+* http://www.fontspace.com/dieter-steffmann/alte-schwabacher
+* http://www.bfds.de/bfds.php?s=normungsondz (UNZ1)
+* http://www.bfds.de/bfds.php?s=pc-schriften
+* https://www.frakturschriften.de/
+* http://www.fraktur.biz/
+* http://www.romana-hamburg.de/Fraktur.htm (mostly commercial)
+* https://www.myfontsfree.com/
+* http://www.peter-wiegel.de/
+* http://www.myfonts.com/search/blackletter/fonts/ (also lists many commercial fonts)
+* https://fontlibrary.org/en/search?lang=&category=blackletter
+* http://www.dtp-studio-unger.de/schriftdesign.html
+* https://www.youworkforthem.com/fonts/
+
+## Script examples
+
+* http://medievalwriting.50megs.com/scripts/scrindex.htm
+
+## Other links
+
+* [Identify Fonts by Sight](https://www.fonts.com/de/id/by-sight)
+* [Typographie](https://www.linotype.com/de/154/typografie.html)
