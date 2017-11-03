@@ -11,7 +11,7 @@ tbd. = more information still missing
 
 ### Fonts for old European texts
 
-* fonts-blankenburg – Blankenbur, Fraktur, 100 %, ligatures
+* fonts-blankenburg – Blankenburg, Fraktur, 100 %, ligatures
 * fonts-oldstandard – tbd.
 * fonts-yanone-kaffeesatz – tbd.
 * ttf-adf-berenis – klassizistische Antiqua, tbd.
