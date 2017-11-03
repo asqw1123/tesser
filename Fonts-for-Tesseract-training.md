@@ -49,3 +49,4 @@ tbd. = more information still missing
 
 * [Identify Fonts by Sight](https://www.fonts.com/de/id/by-sight)
 * [Typographie](https://www.linotype.com/de/154/typografie.html)
+* [Rules for typesetting of blackletter fonts](http://download.linotype.com/free/howtouse/blackletter_e.pdf)
