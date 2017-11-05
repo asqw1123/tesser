@@ -28,6 +28,7 @@ tbd. = more information still missing
 
 ## More links to font sources
 
+* http://arkandis.tuxfamily.org/ (includes [more links](http://arkandis.tuxfamily.org/links.htm))
 * http://www.fontspace.com/dieter-steffmann/alte-schwabacher
 * http://www.bfds.de/bfds.php?s=normungsondz (UNZ1)
 * http://www.bfds.de/bfds.php?s=pc-schriften
@@ -50,3 +51,4 @@ tbd. = more information still missing
 * [Identify Fonts by Sight](https://www.fonts.com/de/id/by-sight)
 * [Typographie](https://www.linotype.com/de/154/typografie.html)
 * [Rules for typesetting of blackletter fonts](http://download.linotype.com/free/howtouse/blackletter_e.pdf)
+* http://scholarsfonts.net/Using_OT_in_LibreOffice_1-2.pdf
