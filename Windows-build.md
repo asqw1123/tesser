@@ -8,19 +8,23 @@ The instructions here are for Debian GNU Linux, but also work for other Debian b
 
 ## Preconditions
 
-Several packages are needed to allow builds with the _GNU autotools_. Let's make sure that we have installed them:
+Several packages are needed to allow builds with the _GNU autotools_ and _GNU compilers_. Let's make sure that we have installed them:
 
-    apt install TODO
+    apt install automake build-essentials
 
 In addition, we need the cross tools for building Windows programs:
 
-    apt install TODO
+    apt install mingw-w64 mingw-w64-tools
 
 Finally, several pre-compiled libraries for Windows are needed.
 Those libraries are not part of Debian GNU Linux, so we use Cygwin packages which were converted to Debian packages.
 TODO.
 
-    dpkg -i TODO
+    for p in mingw64-i686-giflib mingw64-i686-jbigkit mingw64-i686-libjpeg-turbo \
+             mingw64-i686-libpng mingw64-i686-libwebp mingw64-i686-openjpeg2 \
+             mingw64-i686-tiff mingw64-i686-xz mingw64-i686-zlib; do
+        dpkg -i ${p}_*.deb
+    done
 
 ## Get and build Leptonica
 
