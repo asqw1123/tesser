@@ -31,7 +31,7 @@ TODO.
     cd $HOME
     mkdir -p src/github/DanBloomberg
     cd src/github/DanBloomberg
-    git clone git@github.com:DanBloomberg/leptonica.git
+    git clone https://github.com/DanBloomberg/leptonica.git
     cd leptonica
     ./autobuild
     mkdir -p bin/ndebug/i686-w64-mingw32
