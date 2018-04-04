@@ -42,4 +42,18 @@ TODO.
 
 ## Get and build Tesseract
 
+Install Leptonica first.
+
+Finally, several pre-compiled libraries for Windows are needed.
+Those libraries are not part of Debian GNU Linux, so we use Cygwin packages which were converted to Debian packages.
+
+    dpkg -i mingw64-i686-bzip2_1.0.6-4_all.deb mingw64-i686-cairo_1.14.12-1_all.deb \
+            mingw64-i686-expat_2.2.2-1_all.deb mingw64-i686-fontconfig_2.12.6-1_all.deb \
+            mingw64-i686-freetype2_2.6.5-1_all.deb mingw64-i686-gettext_0.19.8.1-2_all.deb \
+            mingw64-i686-glib2.0_2.54.3-1_all.deb mingw64-i686-harfbuzz_1.7.4-1_all.deb \
+            mingw64-i686-icu_57.1-2_all.deb \
+            mingw64-i686-libffi_3.2.1-1_all.deb mingw64-i686-lzo2_2.08-1_all.deb \
+            mingw64-i686-pango1.0_1.40.14-1_all.deb mingw64-i686-pcre_8.40-3_all.deb \
+            mingw64-i686-pixman_0.34.0-1_all.deb mingw64-i686-win-iconv_0.0.6-2_all.deb
+
 TODO.
