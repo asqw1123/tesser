@@ -7,7 +7,6 @@ Normally we run Tesseract on Debian GNU Linux, but there was also the need for
 a Windows version. That's why we have built a Tesseract installer for Windows.
 
 The latest installers can be downloaded here:
-[tesseract-ocr-setup-3.05.02-20180621.exe](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-setup-3.05.02-20180621.exe),
 [tesseract-ocr-w32-setup-v4.1.0.20190314 (rc1)](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w32-setup-v4.1.0.20190314.exe) (32 bit) and
 [tesseract-ocr-w64-setup-v4.1.0.20190314 (rc1)](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v4.1.0.20190314.exe) (64 bit).
 There are also [older versions](https://digi.bib.uni-mannheim.de/tesseract/) available.
