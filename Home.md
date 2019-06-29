@@ -8,7 +8,7 @@ a Windows version. That's why we have built a Tesseract installer for Windows.
 
 The latest installers can be downloaded here:
 * [tesseract-ocr-w32-setup-v5.0.0-alpha.20190623.exe](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w32-setup-v5.0.0-alpha.20190623.exe) (32 bit) and
-* [tesseract-ocr-w64-setup-v5.0.0-alpha.20190623](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.0.0-alpha.20190623.exe) (64 bit) resp.
+* [tesseract-ocr-w64-setup-v5.0.0-alpha.20190623.exe](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.0.0-alpha.20190623.exe) (64 bit) resp.
 * [tesseract-ocr-w64-setup-v4.1.0-bibtag19.exe](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v4.1.0-bibtag19.exe), a special branded [#bibtag19](https://www.bid-kongress-leipzig.de/) edition.
 * [tesseract-ocr-w64-setup-v4.1.0-elag2019.exe](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v4.1.0-elag2019.exe), a special branded [#elag2019](https://www.elag2019.de/) edition.
 
