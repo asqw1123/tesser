@@ -1,6 +1,6 @@
 # Tesseract at UB Mannheim
 
-The Mannheim University Library (UB Mannheim) uses Tesseract to perform OCR (Optical Character recognition)
+The Mannheim University Library (UB Mannheim) uses Tesseract to perform OCR (optical character recognition)
 of historical German newspapers ([Allgemeine Preußische Staatszeitung](https://de.wikipedia.org/wiki/Allgemeine_Preu%C3%9Fische_Staatszeitung), [Deutscher Reichsanzeiger](https://de.wikipedia.org/wiki/Deutscher_Reichsanzeiger)). The latest results with OCR from more than 360,000 scans are available [online](https://digi.bib.uni-mannheim.de/periodika/en/imperial-gazette/ocr/).
 
 Normally we run Tesseract on Debian GNU Linux, but there was also the need for
