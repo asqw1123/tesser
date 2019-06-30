@@ -9,8 +9,6 @@ a Windows version. That's why we have built a Tesseract installer for Windows.
 The latest installers can be downloaded here:
 * [tesseract-ocr-w32-setup-v5.0.0-alpha.20190623.exe](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w32-setup-v5.0.0-alpha.20190623.exe) (32 bit) and
 * [tesseract-ocr-w64-setup-v5.0.0-alpha.20190623.exe](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.0.0-alpha.20190623.exe) (64 bit) resp.
-* [tesseract-ocr-w64-setup-v4.1.0-bibtag19.exe](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v4.1.0-bibtag19.exe), a special branded [#bibtag19](https://www.bid-kongress-leipzig.de/) edition.
-* [tesseract-ocr-w64-setup-v4.1.0-elag2019.exe](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v4.1.0-elag2019.exe), a special branded [#elag2019](https://www.elag2019.de/) edition.
 
 There are also [older versions](https://digi.bib.uni-mannheim.de/tesseract/) available.
 
@@ -20,9 +18,9 @@ In addition, we also provide [documentation](https://digi.bib.uni-mannheim.de/te
 
 * 2019-06-23 Update Tesseract 5.0.0 (alpha). Supports Windows XP again. Much faster (removed OpenMP).
 * 2019-05-26 Update Tesseract 5.0.0 (alpha).
-* 2019-05-09 Special edition for [#elag2019](https://www.elag2019.de/).
-* 2019-03-17 Special edition for [#bibtag19](https://www.bid-kongress-leipzig.de/).
-* 2019-03-14 Update Tesseract 4.1.0 (RC1). Added support for ALTO output.
+* 2019-05-09 [Special edition](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v4.1.0-elag2019.exe) for [#elag2019](https://www.elag2019.de/). Training executables which require ICU fail.
+* 2019-03-17 [Special edition](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v4.1.0-bibtag19.exe) for [#bibtag19](https://www.bid-kongress-leipzig.de/).
+* 2019-03-14 Update Tesseract 4.1.0 (RC1). Added support for ALTO output. Missing ICU DLL for training.
 * 2018-10-30 Update Tesseract 4.0.0.
 * 2018-10-24 Update Tesseract 4.0.0 (RC4).
 * 2018-10-14 Update Tesseract 4.0.0 (RC3).
