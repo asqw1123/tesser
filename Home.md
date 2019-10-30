@@ -20,7 +20,7 @@ In addition, we also provide [documentation](https://digi.bib.uni-mannheim.de/te
 
 ## History
 
-* [2019-10-30](https://github.com/UB-Mannheim/tesseract/commits/v5.0.0-alpha.20191030) Update Tesseract 5.0.0 (alpha). Fixed installation for Lao traineddata.
+* [2019-10-30](https://github.com/UB-Mannheim/tesseract/commits/v5.0.0-alpha.20191030) Update Tesseract 5.0.0 (alpha). Added support for OCR from URL. Fixed installation for Lao traineddata.
 * [2019-10-10](https://github.com/UB-Mannheim/tesseract/commits/v5.0.0-alpha.20191010) Update Tesseract 5.0.0 (alpha). Uninstall no longer recursively removes the installation directory.
 * 2019-07-08 Update Tesseract 5.0.0 (alpha). Supports result output on Windows command line.
 * 2019-06-23 Update Tesseract 5.0.0 (alpha). Supports Windows XP again. Much faster (removed OpenMP).
