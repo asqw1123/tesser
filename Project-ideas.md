@@ -7,3 +7,7 @@ As long as the networks are compatible with the features implemented in Tesserac
 Maybe ONXX can be used as a common exchange format:
 
 - https://github.com/onnx/onnx/blob/master/docs/ImplementingAnOnnxBackend.md
+
+Related issues:
+
+- [Use Tesseract models for Kraken](https://github.com/mittagessen/kraken/issues/152) (requires conversion from Tesseract to Keras)
