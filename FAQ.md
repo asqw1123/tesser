@@ -8,7 +8,7 @@ Several models are available for such old texts. `deu_frak` is a model which was
 
 ### deu_frak
 
-This model only supports the legacy (pattern based) OCR engine, so does not work with a LSTM neural network which typically can achieve better OCR results. The legacy engine has one advantage: it can detect character attributes like cursive or fat.
+This user contributed model only supports the legacy (pattern based) OCR engine, so does not work with a LSTM neural network which typically can achieve better OCR results. The legacy engine has one advantage: it can detect character attributes like cursive or fat.
 
 ### frk
 
