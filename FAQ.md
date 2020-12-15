@@ -1,6 +1,6 @@
 # Frequently asked questions
 
-## Which models can be used for historic European texts
+## Which models can be used for historic European texts?
 
 Old European texts often use [Fraktur](https://en.wikipedia.org/wiki/Fraktur) or historic [Antiqua](https://en.wikipedia.org/wiki/Antiqua_(typeface_class)) fonts with [long s](https://en.wikipedia.org/wiki/Long_s) and [ligatures](https://en.wikipedia.org/wiki/Orthographic_ligature). Those texts require special Tesseract models as the standard models like `eng`, `deu` or `script/Latin` don't recognize them good.
 
