@@ -1,7 +1,7 @@
 # Tesseract at UB Mannheim
 
-The Mannheim University Library (UB Mannheim) uses Tesseract to perform OCR (optical character recognition)
-of historical German newspapers ([Allgemeine Preußische Staatszeitung](https://de.wikipedia.org/wiki/Allgemeine_Preu%C3%9Fische_Staatszeitung), [Deutscher Reichsanzeiger](https://de.wikipedia.org/wiki/Deutscher_Reichsanzeiger)). The latest results with OCR from more than 360,000 scans are available [online](https://digi.bib.uni-mannheim.de/periodika/en/imperial-gazette/ocr/).
+The Mannheim University Library (UB Mannheim) uses Tesseract to perform text recognition (OCR = optical character recognition)
+for historical German newspapers ([Allgemeine Preußische Staatszeitung](https://de.wikipedia.org/wiki/Allgemeine_Preu%C3%9Fische_Staatszeitung), [Deutscher Reichsanzeiger](https://de.wikipedia.org/wiki/Deutscher_Reichsanzeiger)). The latest results with text from more than 700000 pages are available [online](https://digi.bib.uni-mannheim.de/periodika/en/imperial-gazette/ocr/).
 
 ## Tesseract installer for Windows
 
@@ -14,7 +14,7 @@ The latest installers can be downloaded here:
 * [tesseract-ocr-w32-setup-v5.0.0-rc1.20211030.exe](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w32-setup-v5.0.0-rc1.20211030.exe) (32 bit) and
 * [tesseract-ocr-w64-setup-v5.0.0-rc1.20211030.exe](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.0.0-rc1.20211030.exe) (64 bit) resp.
 
-We don't provide an installer for Tesseract 4.1.0 because we think that the latest version 5.0.0-alpha is better for most Windows users in many aspects (functionality, speed, stability). Version 4.1 is only needed for people who develop software based on the Tesseract API and who need 100 % API compatibility with version 4.0.
+We don't provide an installer for Tesseract 4.1 because we think that the latest version 5 is better for most Windows users in many aspects (functionality, speed, stability). Version 4.1 is only needed for people who develop software based on the Tesseract API and who need 100 % API compatibility with version 4.0.
 
 There are also [older versions](https://digi.bib.uni-mannheim.de/tesseract/) available.
 
