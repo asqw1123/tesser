@@ -11,8 +11,8 @@ a Windows version. That's why we have built a Tesseract installer for Windows.
 **WARNING: Tesseract should be either installed in the directory which is suggested during the installation or in a new directory. The uninstaller removes the whole installation directory. If you installed Tesseract in an existing directory, that directory will be removed with all its subdirectories and files.**
 
 The latest installers can be downloaded here:
-* [tesseract-ocr-w32-setup-v5.0.0.20211201.exe](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w32-setup-v5.0.0.20211201.exe) (32 bit) and
-* [tesseract-ocr-w64-setup-v5.0.0.20211201.exe](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.0.0.20211201.exe) (64 bit) resp.
+* [tesseract-ocr-w32-setup-v5.0.1.20220107.exe](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w32-setup-v5.0.1.20220107.exe) (32 bit) and
+* [tesseract-ocr-w64-setup-v5.0.1.20220107.exe](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.0.1.20220107.exe) (64 bit) resp.
 
 We don't provide an installer for Tesseract 4.1 because we think that the latest version 5 is better for most Windows users in many aspects (functionality, speed, stability). Version 4.1 is only needed for people who develop software based on the Tesseract API and who need 100 % API compatibility with version 4.0.
 
@@ -26,7 +26,7 @@ Historic books printed in Fraktur script are supported by the standard models _f
 In addition we [trained our own models](https://github.com/tesseract-ocr/tesstrain/wiki/GT4HistOCR) on a wide range of historic books. They are available [online](https://ub-backup.bib.uni-mannheim.de/~stweil/tesstrain/). In many cases the results from those models (_Fraktur_5000000_, _frak2021_) are better than those from the standard models.
 
 ## History
-
+* [2022-01-07](https://github.com/UB-Mannheim/tesseract/commits/v5.0.1.20220107) Update Tesseract 5.0.1.
 * [2021-12-01](https://github.com/UB-Mannheim/tesseract/commits/v5.0.0.20211201) Update Tesseract 5.0.0.
 * [2021-10-30](https://github.com/UB-Mannheim/tesseract/commits/v5.0.0-rc1.20211030) Update Tesseract 5.0.0 release candidate 1.
 * [2021-08-11](https://github.com/UB-Mannheim/tesseract/commits/v5.0.0-alpha.20210811) Update Tesseract 5.0.0 (alpha). Faster (uses 32 bit float instead of 64 bit double).
