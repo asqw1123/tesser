@@ -26,4 +26,4 @@ Those models typically give the best results. They eliminate the problems of `fr
 - [models](https://ub-backup.bib.uni-mannheim.de/~stweil/ocrd-train/data/GT4HistOCR_5000000/tessdata_fast/) trained from scratch
 - [models](https://ub-backup.bib.uni-mannheim.de/~stweil/ocrd-train/data/ONB/tessdata_fast/) trained from Austrian newspapers with Fraktur
 
-All those models work without any dictionary. The current Tesseract versions therefore show a warning which can simply be ignored.
+All those models work without any dictionary. Older Tesseract versions therefore show a warning which can simply be ignored.
