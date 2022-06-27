@@ -25,5 +25,7 @@ Those models typically give the best results. They eliminate the problems of `fr
 - [models](https://ub-backup.bib.uni-mannheim.de/~stweil/ocrd-train/data/Fraktur_5000000/tessdata_fast/) based on `script/Fraktur`
 - [models](https://ub-backup.bib.uni-mannheim.de/~stweil/ocrd-train/data/GT4HistOCR_5000000/tessdata_fast/) trained from scratch
 - [models](https://ub-backup.bib.uni-mannheim.de/~stweil/ocrd-train/data/ONB/tessdata_fast/) trained from Austrian newspapers with Fraktur
+- [latest models](https://ub-backup.bib.uni-mannheim.de/~stweil/tesstrain/frak2021/tessdata_fast/) trained in 2021 (not always the best)
 
 All those models work without any dictionary. Older Tesseract versions therefore show a warning which can simply be ignored.
+[frak2021_1.069](https://ub-backup.bib.uni-mannheim.de/~stweil/tesstrain/frak2021/tessdata_fast/frak2021_1.069.traineddata) is a model where we added a dictionary.
