@@ -11,8 +11,8 @@ a Windows version. That's why we have built a Tesseract installer for Windows.
 **WARNING: Tesseract should be either installed in the directory which is suggested during the installation or in a new directory. The uninstaller removes the whole installation directory. If you installed Tesseract in an existing directory, that directory will be removed with all its subdirectories and files.**
 
 The latest installers can be downloaded here:
-* [tesseract-ocr-w32-setup-v5.2.0.20220708.exe](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w32-setup-v5.2.0.20220708.exe) (32 bit) and
-* [tesseract-ocr-w64-setup-v5.2.0.20220708.exe](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.2.0.20220708.exe) (64 bit) resp.
+* [tesseract-ocr-w32-setup-v5.2.0.20220712.exe](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w32-setup-v5.2.0.20220712.exe) (32 bit) and
+* [tesseract-ocr-w64-setup-v5.2.0.20220712.exe](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.2.0.20220712.exe) (64 bit) resp.
 
 There are also [older versions](https://digi.bib.uni-mannheim.de/tesseract/) available.
 
@@ -24,7 +24,8 @@ Historic books printed in Fraktur script are supported by the standard models _f
 In addition we [trained our own models](https://github.com/tesseract-ocr/tesstrain/wiki/GT4HistOCR) on a wide range of historic books. They are available [online](https://ub-backup.bib.uni-mannheim.de/~stweil/tesstrain/). In many cases the results from those models (_Fraktur_5000000_, _frak2021_) are better than those from the standard models.
 
 ## History
-* [2022-07-08](https://github.com/UB-Mannheim/tesseract/commits/v5.2.0.20220708) Update Tesseract 5.2.0.
+* [2022-07-12](https://github.com/UB-Mannheim/tesseract/commits/v5.2.0.20220712) Update Tesseract 5.2.0. Fixed support for image URL with https.
+* [2022-07-08](https://github.com/UB-Mannheim/tesseract/commits/v5.2.0.20220708) Update Tesseract 5.2.0. Broken support for image URL with https.
 * [2022-05-10](https://github.com/UB-Mannheim/tesseract/commits/v5.1.0.20220510) Update Tesseract 5.1.0.
 * [2022-01-18](https://github.com/UB-Mannheim/tesseract/commits/v5.0.1.20220118) Update Tesseract 5.0.1. Fixed model download.
 * [2022-01-07](https://github.com/UB-Mannheim/tesseract/commits/v5.0.1.20220107) Update Tesseract 5.0.1. Model download is broken.
