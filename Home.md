@@ -10,9 +10,8 @@ a Windows version. That's why we have built a Tesseract installer for Windows.
 
 **WARNING: Tesseract should be either installed in the directory which is suggested during the installation or in a new directory. The uninstaller removes the whole installation directory. If you installed Tesseract in an existing directory, that directory will be removed with all its subdirectories and files.**
 
-The latest installers can be downloaded here:
-* [tesseract-ocr-w32-setup-5.3.0.20221222.exe](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w32-setup-5.3.0.20221222.exe) (32 bit) and
-* [tesseract-ocr-w64-setup-5.3.0.20221222.exe](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-5.3.0.20221222.exe) (64 bit) resp.
+The latest installer can be downloaded here:
+* [tesseract-ocr-w64-setup-5.3.1.20230401.exe](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-5.3.1.20230401.exe) (64 bit) resp.
 
 There are also [older versions](https://digi.bib.uni-mannheim.de/tesseract/) available.
 
@@ -24,7 +23,8 @@ Historic books printed in Fraktur script are supported by the standard models _f
 In addition we [trained our own models](https://github.com/tesseract-ocr/tesstrain/wiki/GT4HistOCR) on a wide range of historic books. They are available [online](https://ub-backup.bib.uni-mannheim.de/~stweil/tesstrain/). In many cases the results from those models (_Fraktur_5000000_, _frak2021_) are better than those from the standard models.
 
 ## History
-* [2022-12-22](https://github.com/UB-Mannheim/tesseract/commits/v5.3.0.20221222) Update Tesseract 5.3.0.
+* [2023-04-01](https://github.com/UB-Mannheim/tesseract/commits/v5.3.1.20230401) Update Tesseract 5.3.1. Now uses msys packages. 32 bit installer is no longer provided.
+* [2022-12-22](https://github.com/UB-Mannheim/tesseract/commits/v5.3.0.20221222) Update Tesseract 5.3.0. Now signed with new key.
 * [2022-12-14](https://github.com/UB-Mannheim/tesseract/commits/v5.3.0.20221214) Update Tesseract 5.3.0-rc1.
 * [2022-07-12](https://github.com/UB-Mannheim/tesseract/commits/v5.2.0.20220712) Update Tesseract 5.2.0. Fixed support for image URL with https.
 * [2022-07-08](https://github.com/UB-Mannheim/tesseract/commits/v5.2.0.20220708) Update Tesseract 5.2.0. Broken support for image URL with https.
