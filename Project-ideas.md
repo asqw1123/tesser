@@ -18,9 +18,10 @@ Tesseract uses Leptonica which can read many important image formats. Releant Le
 
 Missing formats:
 
-* AVIF
-* JPEG XL
-* PDF
+* [AVIF](https://en.wikipedia.org/wiki/AVIF) – .avif
+* [HEVC](https://en.wikipedia.org/wiki/High_Efficiency_Video_Coding)
+* [JPEG XL](https://en.wikipedia.org/wiki/JPEG_XL) – .jxl
+* [PDF](https://en.wikipedia.org/wiki/PDF) – .pdf
 
 Extending Leptonica to support additional image formats is not desired because each format costs much resources for implementation and maintenance. But maybe it is possible to use an external library for image handling. Then only support for that library must be implemented.
 
