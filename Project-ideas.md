@@ -11,3 +11,22 @@ Maybe ONXX can be used as a common exchange format:
 Related issues:
 
 - [Use Tesseract models for Kraken](https://github.com/mittagessen/kraken/issues/152) (requires conversion from Tesseract to Keras)
+
+### Support additional image formats
+
+Tesseract uses Leptonica which can read many important image formats. Releant Leptonica API functions: `pixRead`, more?
+
+Missing formats:
+
+* AVIF
+* JPEG XL
+* PDF
+
+Extending Leptonica to support additional image formats is not desired because each format costs much resources for implementation and maintenance. But maybe it is possible to use an external library for image handling. Then only support for that library must be implemented.
+
+Possible libraries:
+
+* ffmpeg2 – https://ffmpeg.org/, LGPL v2.1+, jxl
+* graphicsmagick – http://www.graphicsmagick.org/, MIT license, jxl
+* libimlib2 – https://docs.enlightenment.org/api/imlib2/html/index.html, license?, heic / jxl
+* others?
