@@ -1,6 +1,6 @@
 # Häufige Fragen und Antworten
 
-Die Sammlung hier kann gerne ergänzt werden.
+Die Sammlung hier kann gerne ergänzt werden. Auch Übersetzungen der englischsprachigen FAQ sind willkommen.
 
 ## Wie starte ich eine OCR? Hat jemand für mich einen Beispielkommandozeilenaufruf?
 ```
