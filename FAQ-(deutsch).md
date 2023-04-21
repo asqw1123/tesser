@@ -2,6 +2,11 @@
 
 Die Sammlung hier kann gerne ergänzt werden. Auch Übersetzungen der englischsprachigen FAQ sind willkommen.
 
+Weitere deutschsprachige Dokumentation zu Tesseract und anderen OCR-Themen gibt es hier:
+
+* https://ocr-bw.bib.uni-mannheim.de/
+* https://ocr-d.de/de/
+
 ## Wie starte ich eine OCR? Hat jemand für mich einen Beispielkommandozeilenaufruf?
 ```
 tesseract https://digi.bib.uni-mannheim.de/fileadmin/vl/ubmaosi/59088/max/59088_0008.jpg -
