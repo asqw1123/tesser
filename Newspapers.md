@@ -6,7 +6,7 @@ Create new OCR for Neue Tageszeitung, February 1914.
 
 ```
 # Example how to get a single METS file.
-curl -o 30170.xml "https://digisam.ub.uni-giessen.de/ubg-ihd-zuz/oai/?verb=GetRecord&metadataPrefix=mets&mode=view&identifier=30170"
+curl -o 30170.xml "https://digisam.ub.uni-giessen.de/ubg-ihd-zuz/oai/?verb=GetRecord&metadataPrefix=mets&identifier=30170"
 
 # Get all METS files for February 1914.
 idlist="30377 30384 30391 30398 30407 30414 30425 30434 30441 30450 30459 30466 30479 30488 30495 30502 30509 30516 30527 30534 30541 30548 30555 30562"
