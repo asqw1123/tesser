@@ -17,5 +17,6 @@ for url in $(cat $(grep -l webcache.0 *.xml)|sed 's/"/\n/g'|grep webcache.0); do
 
 # Perform Tesseract OCR.
 export LANG=C.UTF-8
-time -p (for img in *.jpg; do echo $img && time -p tesseract $img $(basename $img .jpg) -l ubma/frak2021_1.069 alto hocr txt; done) 2>&1 | tee ocr.log
+mkdir ocr
+time -p (for img in *.jpg; do echo $img && time -p tesseract $img ocr/$(basename $img .jpg) -l ubma/frak2021_1.069 alto hocr txt; done) 2>&1 | tee ocr.log
 ```
