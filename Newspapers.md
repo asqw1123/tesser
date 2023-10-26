@@ -20,6 +20,9 @@ export LANG=C.UTF-8
 mkdir ocr
 time -p (for img in *.jpg; do echo $img && time -p tesseract $img ocr/$(basename $img .jpg) -l ubma/frak2021_1.069 alto hocr txt; done) 2>&1 | tee ocr.log
 
-# Perform Tesseract OCR with model ubma/german_newspapers and get images on the fly via their URL. Use all CPU cores.
+# The previous two steps can be combined by getting images on the fly via their URL. Use also all CPU cores.
 time -p for url in $(cat $(grep -l webcache.0 *.xml)|sed 's/"/\n/g'|grep webcache.0); do id=$(basename $url); echo $id; done | parallel nice tesseract https://digisam.ub.uni-giessen.de/download/webcache/0/{} ../german_newspapers/ocr/{} -l ubma/frak2021_1.069 alto hocr txt 2>&1 | tee ../german_newspapers/ocr/ocr.log
+
+# Perform Tesseract OCR with model ubma/german_newspapers and get images on the fly via their URL. Use all CPU cores.
+time -p for url in $(cat $(grep -l webcache.0 *.xml)|sed 's/"/\n/g'|grep webcache.0); do id=$(basename $url); echo $id; done | parallel nice tesseract https://digisam.ub.uni-giessen.de/download/webcache/0/{} ../german_newspapers/ocr/{} -l ubma/german_newspapers alto hocr txt 2>&1 | tee ../german_newspapers/ocr/ocr.log
 ```
